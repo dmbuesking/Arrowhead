@@ -1,5 +1,25 @@
 package com.dmb;
+/**
+ * This class creates an object of Arrowhead and contains the type of arrowhead,
+ * the date it was found, the name of the dig site, the county and state and
+ * the name of the finder.  All String variables.
+ * Constructors:
+ * 	public Artifact(String artType, String dateFound, String locFound, String county, String state, String finderName) 
+	{
 
+		super();
+		this.artType = artType;
+		this.dateFound = dateFound;
+		this.locFound = locFound;
+		this.county = county;
+		this.state = state;
+		this.finderName = finderName;
+	}
+
+	public Artifact() {}
+ * @author dmb
+ *
+ */
 public class Artifact {
 	
 	String artType;
